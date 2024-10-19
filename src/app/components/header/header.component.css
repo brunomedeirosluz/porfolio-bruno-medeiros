@@ -1,0 +1,17 @@
+.logo {
+  width: 180px;
+}
+
+.menu {
+  width: 16px;
+  margin-right: 10px;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  background-color: #ffd22f;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+}
