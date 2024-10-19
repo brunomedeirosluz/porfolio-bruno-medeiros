@@ -1,0 +1,56 @@
+.hr-dev {
+  border: none;
+  border-radius: 10px;
+  height: 3px;
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  width: 65%;
+  transform: rotate(-1deg);
+  transform-origin: center;
+}
+
+.hr-min {
+  border: none;
+  border-radius: 10px;
+  height: 3px;
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  width: 40%;
+  transform: rotate(-1deg);
+  transform-origin: center;
+}
+
+.hr-gamer {
+  border: none;
+  border-radius: 10px;
+  height: 3px;
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  width: 40%;
+  transform: rotate(-1deg);
+  transform-origin: center;
+}
+
+.hr-ux {
+  border: none;
+  border-radius: 10px;
+  height: 3px;
+  background-color: #ffd22f;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  width: 80%;
+  transform: rotate(-1deg);
+  transform-origin: center;
+}
+
+.main {
+  background-color: #f4f4f3;
+  padding: 20px;
+}

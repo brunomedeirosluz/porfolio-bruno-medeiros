@@ -1,10 +1,12 @@
 .logo {
   width: 180px;
+  cursor: pointer;
 }
 
 .menu {
   width: 16px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 hr {
