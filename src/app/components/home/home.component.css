@@ -6,7 +6,7 @@
   padding: 0;
   margin: 0;
   opacity: 1;
-  width: 65%;
+  width: 75%;
   transform: rotate(-1deg);
   transform-origin: center;
 }
@@ -40,7 +40,7 @@
 .hr-ux {
   border: none;
   border-radius: 10px;
-  height: 3px;
+  height: 5px;
   background-color: #ffd22f;
   padding: 0;
   margin: 0;
@@ -53,4 +53,5 @@
 .main {
   background-color: #f4f4f3;
   padding: 20px;
+  min-height: calc(91vh - 50px);
 }

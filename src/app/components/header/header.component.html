@@ -1,11 +1,14 @@
-<div class="container">
-  <div class="row align-items-center mt-5">
-    <div class="col-6 d-flex justify-content-start">
-      <img class="logo" src="assets/logo.png" alt="logo" />
-    </div>
-    <div class="col-6 d-flex justify-content-end">
-      <img class="menu" src="assets/menu.png" alt="menu" />
+<header [ngClass]="{ 'no-shadow': isMenuActive }">
+  <div class="container">
+    <div class="row align-items-center mt-4">
+      <div class="col-6 d-flex justify-content-start">
+        <img class="logo" src="assets/logo.png" alt="logo" />
+      </div>
+      <div class="col-6 d-flex justify-content-end">
+        <div (click)="ativar()" id="toggle"></div>
+      </div>
     </div>
   </div>
-</div>
-<hr />
+  <hr *ngIf="!isMenuActive" />
+</header>
+<app-menu [isActive]="isMenuActive"></app-menu>
