@@ -6,7 +6,7 @@
   padding: 0;
   margin: 0;
   opacity: 1;
-  width: 75%;
+  width: 60%;
   transform: rotate(-1deg);
   transform-origin: center;
 }
@@ -45,7 +45,7 @@
   padding: 0;
   margin: 0;
   opacity: 1;
-  width: 80%;
+  width: 70%;
   transform: rotate(-1deg);
   transform-origin: center;
 }
@@ -53,5 +53,6 @@
 .main {
   background-color: #f4f4f3;
   padding: 20px;
-  min-height: calc(91vh - 50px);
+  min-height: calc(90vh - 50px);
+  font-family: "PT Sans Narrow", sans-serif;
 }
